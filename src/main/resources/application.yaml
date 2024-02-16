@@ -6,7 +6,7 @@ server:
   shutdown: graceful
 spring:
   application:
-    name: mobile-gw
+    name: gateway
   lifecycle:
     timeout-per-shutdown-phase: 15s
   cloud:
