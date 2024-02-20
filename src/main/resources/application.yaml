@@ -54,7 +54,7 @@ spring:
         - id: tea-bff-films-service
           uri: http://localhost:8091
           predicates:
-            - Path=/api/v1.0.0/managers/application/{applicationId}/final-report
+            - Path=/api/users/
           metadata:
             response-timeout: 120000
 
